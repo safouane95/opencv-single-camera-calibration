@@ -16,7 +16,7 @@ pip install libopencv-dev
 pip install numpy
 ```
 # HOW TO
-To obtain a good estimation of the parameters, at least 20 images must be taken, in each image the pose of the calibration grid must change
+To perform calibration, a minimum of 3 images are needed. To obtain a good estimation of the parameters, at least 20 images must be taken, in each image the pose of the calibration grid must change
 The angle variation of the calibration grid is also important to improve the estimation of focal length
 
 One the program is executed, you can use the following keys to snap images, calibrate, reset or quit.
