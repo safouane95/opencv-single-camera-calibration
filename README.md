@@ -24,3 +24,6 @@ One the program is executed, you can use the following keys to snap images, cali
 [c]         : compute calibration
 [r]         : reset program
 [ESC]    : quit
+
+# Additional parameters
+The code provides the camera intrinsic matrice ```mtx``` and individual extrinsic matrices ```T``` of the images. Individual Reprojection and the mean reprojection errors are also provided
