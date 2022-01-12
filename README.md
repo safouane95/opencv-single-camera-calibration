@@ -1,7 +1,7 @@
 # opencv-single-camera-calibration
 Single camera calibration using opencv library - Python code
 
-This repository contains a simple python code for geometric calibration of single camera. Camera calibration is the process of estimating the transformation matrices from the world frame to the image plane. The calibration is performed by oserving a plane object with particular pattern with known dimensions. You could use a circle board or a checkerboard. Beform using the code, be sure that your camera's focal lenght is not set to automatic otherwise the estimated parameters are wrong.
+This repository contains a simple python code for geometric calibration of single camera. Camera calibration is the process of estimating the transformation matrices from the world frame to the image plane. The calibration is performed by oserving a planar object printed with known pattern. You could use a circle board or a checkerboard. Beform using the code, be sure that your camera's focal lenght is not set to automatic otherwise the estimated parameters are wrong.
 This calibration is based on Pinhole camera model, you can check the mathematical details here (https://en.wikipedia.org/wiki/Pinhole_camera_model)
 
 # About
